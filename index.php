@@ -22,8 +22,9 @@ session_start()
                      vulnerability at each level. Complete all 10 levels to get the OWASP Web certificate.</p>
                 <br><br>
                 <a href="Lv1-Login.php"><button class="btn btn-secondary mb-4" style="font-size: 1.7rem">Continue to Level 1</button></a>
-        </div>
             </section>
+        </div>
+            
     </div>
     <?php include "includes/footer.php"; ?>
 </body>

@@ -18,7 +18,8 @@
     echo '<ul class="sidebar">'; 
     foreach ($pages as $page => $title) {
         $active = ($current_page == $page) ? 'class="active"' : ''; 
-        echo "<li $active><a href=\"\">$title</li>"; 
+        echo "<li $active>$title</li>"; 
+        // echo "<li $active><a href=\"\">$title</li>"; 
     } 
     echo '</ul>';
     ?>

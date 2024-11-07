@@ -232,3 +232,8 @@ textarea{
     color: black;
 
 }
+
+/* Make input boxes shorter */
+.input-short {
+    width: 100px;
+}
