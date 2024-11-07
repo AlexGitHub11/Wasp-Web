@@ -24,6 +24,7 @@ session_start()
                 <br>
                 <!-- If only Authentication bypass was as simple as 1 = 1 -->
 
+
                 <!-- Login form -->
                 <form method="POST" action="lv1-Vuln" >
                     <div class="form-group mb-4">
@@ -34,8 +35,19 @@ session_start()
                         <label class="bodytext" for="password">Password:</label>
                         <input type="password" name="password">
                     </div>
+
+                    <!-- Display error message if login fails -->
+                    <?php if (isset($_SESSION['error'])): ?>
+                        <div class="alert alert-danger">
+                            <?php 
+                            echo $_SESSION['error'];
+                            unset($_SESSION['error']);
+                            ?>
+                        </div>
+                    <?php endif; ?>
+
                     <button class="btn btn-secondary mb-4" style="width: 150px;" type="submit" name="submit" value="Login">Login </button>
-                </form>
+                </form> 
             </section>  
         </div>
     </div>
