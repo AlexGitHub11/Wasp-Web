@@ -5,6 +5,7 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: ../Lv3-Login.php");
     exit;
 } 
+
 $user = $_SESSION['user_id'] ?? '';
 ?>
 <!DOCTYPE html>
@@ -23,7 +24,7 @@ $user = $_SESSION['user_id'] ?? '';
             <h1 class="title">Welcome user <?php echo htmlspecialchars($user); ?></h1>
             <br>
             <p class="bodytext"><b>Undergoing maintenance...</b>
-            <!-- Dont forget to build admin page with same url structure -->
+            <!-- Dont forget to build admin page -->
             <p>
             <br>
         <div>

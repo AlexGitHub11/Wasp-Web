@@ -1,5 +1,4 @@
-   
-<div class="sidebar">
+   <div class="sidebar">
     <?php
 
     //Get current page name
@@ -18,8 +17,7 @@
     echo '<ul class="sidebar">'; 
     foreach ($pages as $page => $title) {
         $active = ($current_page == $page) ? 'class="active"' : ''; 
-        echo "<li $active>$title</li>"; 
-        // echo "<li $active><a href=\"\">$title</li>"; 
+        echo "<li $active><a href=\"\">$title</a></li>"; 
     } 
     echo '</ul>';
     ?>

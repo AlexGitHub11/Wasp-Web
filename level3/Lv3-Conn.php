@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 } 
 
-include("../conn.php");
+include("../includes/conn.php");
 $username = $_POST['username'];
 // hash MD5
 $password = md5($_POST['password']);  

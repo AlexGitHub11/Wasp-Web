@@ -37,8 +37,8 @@ if (!isset($_SESSION['user_id'])) {
                 <div class="card" id="output"> 
                     <p class="bodytext"><br>I thought PHP was dead<br>
                     <br>This comment box is fake, horrendous!<br>
-                    <br>The developer needs to get better at JS and html XD<br>
-                    <br>I prefer CSRF/XSRF<br>
+                    <br>The developer needs to get better at JS and html!<br>
+                    <br>What is a network engineer's favorite index fund? SNMP 500 XD<br>
                     <br>XSS is a great attack vector<br>
                     <br>This is not as good as StackOverflow<br>
                     <br>&lt;script&gt;&lt;img title="&lt;/script&gt;&lt;img src onerror=alert("Close")&gt;"&gt;&lt;/script&gt;<br>
