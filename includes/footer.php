@@ -1,6 +1,6 @@
 <footer class="footer mt-auto py-3 bg-dark">
     <div class="container text-center">
-        <span class="text-muted">Version: 1.2</span>
+        <span class="text-muted">Version: 2.1</span>
     </div>
 </footer>
 
