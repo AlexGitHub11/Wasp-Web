@@ -21,7 +21,7 @@ session_start()
                     on their software security skills. Users can complete all 10 levels by exploiting a different OWASP Top 10 <br> 
                      vulnerability at each level. Complete all 10 levels to get the OWASP Web certificate.</p>
                 <br><br>
-                <a href="Lv1-Login.php"><button class="btn btn-secondary mb-4" style="font-size: 1.7rem">Continue to Level 1</button></a>
+                <a href="../level1/Lv1-Login.php"><button class="btn btn-secondary mb-4" style="font-size: 1.7rem">Continue to Level 1</button></a>
             </section>
         </div>
             

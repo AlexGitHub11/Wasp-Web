@@ -5,13 +5,13 @@ session_start()
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="../Style.css">
 </head>
 <body text="white">
-    <?php include "includes/nav.php"; ?>
+    <?php include "../includes/nav.php"; ?>
     <div class="flex-container">
         <div class="sidebarcontainer">
-            <?php include "includes/sidebar.php"; ?>
+            <?php include "../includes/sidebar.php"; ?>
         </div>
         <div class="main-content">
             <section class="content">
@@ -51,6 +51,6 @@ session_start()
             </section>  
         </div>
     </div>
-    <?php include "includes/footer.php"; ?>
+    <?php include "../includes/footer.php"; ?>
 </body>
 </html>

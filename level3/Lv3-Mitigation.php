@@ -4,7 +4,7 @@ session_start();
 
 if (!isset($_SESSION['user_id'])) {
 
-    header("Location: Lv1-Vuln.php");
+    header("Location: ../level1/Lv1-Vuln.php");
     exit;
     
 } 

@@ -20,7 +20,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_id'] !== 1 ) {   // Validate
 
     <head>
 
-        <link rel="stylesheet" href=Style.css> 
+        <link rel="stylesheet" href=../Style.css> 
     </head>
 
     <body text="white">

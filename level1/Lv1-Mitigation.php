@@ -10,13 +10,13 @@ if (!isset($_SESSION['user_id'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href=Style.css> 
+    <link rel="stylesheet" href=../Style.css> 
 </head>
 <body text="white">
-    <?php include "includes/nav.php"; ?>
+    <?php include "../includes/nav.php"; ?>
     <div class="flex-container">
         <div class="sidebarcontainer">
-            <?php include "includes/sidebar.php"; ?>
+            <?php include "../includes/sidebar.php"; ?>
         </div>
         <div class="main-content">
             <section class="content">
@@ -29,12 +29,12 @@ if (!isset($_SESSION['user_id'])) {
             Please continue to level 2: 
             <p>
             <br>
-            <a href="Lv2-Vuln.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 2</button></a>
+            <a href="../level2/Lv2-Vuln.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 2</button></a>
 
-            <img src="images/sql-vuln-img.png" alt="vuln" class="xssvuln">
-            <img src="images/sql-secure-img.png" alt="secure" class="xsssecure">
+            <img src="../images/sql-vuln-img.png" alt="vuln" class="xssvuln">
+            <img src="../images/sql-secure-img.png" alt="secure" class="xsssecure">
         <div>
     </div>
-    <?php include "includes/footer.php"; ?>
+    <?php include "../includes/footer.php"; ?>
 </body>
 </html>
