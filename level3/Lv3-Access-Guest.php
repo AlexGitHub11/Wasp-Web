@@ -2,6 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['user_id'])) {
+    
     header("Location: ../Lv3-Login.php");
     exit;
 } 

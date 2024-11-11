@@ -9,4 +9,6 @@ vulnerability at each level. Complete all 10 levels to get the OWASP Web certifi
 
 UNDER DEVELOPMENT
 
+Demo video (Version 2.1): https://youtu.be/5vYa0IPliXM
+
 Demo video (Version 1.0): https://youtu.be/lPTRcQG6hrU

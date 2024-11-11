@@ -19,11 +19,15 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <div class="main-content">
             <section class="content">
-                <h1 class="title">Level 7: </h1>
+                <h1 class="title">Level 7: Identification and Authentication Failures</h1>
                 <br>
-                <p class="bodytext">Under development...
-                <p>
+                <p class="bodytext"> Broken Authentication gained the no2 spot in the 2017 Owasp Top 10, and the no7 spot in the 2021<br>
+                Top 10 where it was renamed Identification and Authentication Failures, this web<br>
+                application risk can present itself in many ways, from plain text passwords,<br>
+                to insecure multi-factor authenticaiton, and insecure sessions.
+                </p>
                 <br>
+                <a href="../level7/Lv7-Vuln-Session.php"><button class="btn btn-secondary mb-4" style="width: 300px;">continue</button></a>
             </section>  
         </div>
     </div>
