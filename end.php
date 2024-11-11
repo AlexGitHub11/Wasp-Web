@@ -26,6 +26,11 @@ if (!isset($_SESSION['user_id'])) {
                 <br>
                 <b>OWASP Web</b>
                 </p>
+                <button class="btn btn-secondary mb-4" onclick="openImage()">Get Certificate</button> 
+                
+                <script> function openImage() { 
+                    window.open('../images/cert.png', '_blank'); }
+                </script>
             </section>  
         </div>
     </div>
