@@ -20,15 +20,15 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <div class="main-content">
             <section class="content">
-            <h1 class="title">Insecure Design Mitigation</h1>
+            <h1 class="title">Insufficient Logging & Monitoring Mitigation</h1>
             <br>
-            <p class="bodytext"><b>Congratulation! You identified the hard coded credential.</b><br>
-            As you discovered, the correct value for the combination input field was hard coded into the source, <br>
-            This is a huge lapse in security, and the value should instead be stored serverside to ensure secure validation.<br>
-            Please continue to level 6:
+            <p class="bodytext"><b>Congratulation! You successfully analysed the log files!</b><br>
+            This task was to demonstrate the importance of logging and monitoring system and network activity. <br>
+            Without this data there would be no way to identify and mitigate security breaches. <br>
+            Please continue to level 7:
             </p>
             <br>
-            <a href="../level6/Lv6-Vuln.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 6</button></a>
+            <a href="../level7/Lv7-Vuln.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 7</button></a>
         <div>
     </div>
     <?php include "../includes/footer.php"; ?>

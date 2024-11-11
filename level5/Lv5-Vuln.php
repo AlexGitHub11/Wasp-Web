@@ -48,7 +48,7 @@ if (!isset($_SESSION['user_id'])) {
                         combination = val1 + val2 + val3 + val4;
                         
                         var submitElement = document.getElementById('submit');
-                        if ( combination === "3389" ) {
+                        if ( combination === "3389" ) { 
                             submitElement.innerHTML = '<div class="alert alert-success" role="alert">Code is correct!</div>';
                             window.location.href = "Lv5-Mitigation.php"
                         } else {
