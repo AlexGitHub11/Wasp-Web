@@ -32,8 +32,8 @@ if (!isset($_SESSION['user_id'])) {
             <br>
             <a href="../level4/Lv4-Vuln.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 4</button></a>
 
-            <img src="../images/bac-vuln-img.png" alt="secure" class="imagepos" >
-            <img src="../images/bac-secure-img.png" alt="secure" class="image2pos" >
+            <img src="../images/bac-vuln-img.png" alt="secure" class="image2pos" >
+            <img src="../images/bac-secure-img.png" alt="secure" class="imagepos" >
         <div>
     </div>
     <?php include "../includes/footer.php"; ?>

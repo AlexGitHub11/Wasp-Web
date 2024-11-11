@@ -10,7 +10,12 @@
         'Lv2-Vuln.php' => 'Level 2',
         'Lv3-Login.php' => 'Level 3',  
         'Lv4-Vuln.php' => 'Level 4', 
-        'Lv5-End.php' => 'Level 5', 
+        'Lv5-Vuln.php' => 'Level 5', 
+        'Lv6-Vuln.php' => 'Level 6', 
+        'Lv7-Vuln.php' => 'Level 7', 
+        'Lv8-Vuln.php' => 'Level 8', 
+        'Lv9-Vuln.php' => 'Level 9', 
+        'Lv10-Vuln.php' => 'Level 10',
     ];
     
     // disply side bar with current page highlighted 
