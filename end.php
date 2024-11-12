@@ -24,10 +24,11 @@ if (!isset($_SESSION['user_id'])) {
                 <p class="bodytext">You have successfully completed
                 <br>
                 <br>
-                <b>OWASP Web</b>
-                </p>
+                <b>WASP Web</b>
+                <br>
+                </p>    
+                <img src="../images/top-10.png" alt="secure" class="owasp" >
                 <button class="btn btn-secondary mb-4" onclick="openImage()">Get Certificate</button> 
-                
                 <script> function openImage() { 
                     window.open('../images/cert.png', '_blank'); }
                 </script>
