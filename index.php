@@ -15,11 +15,11 @@ session_start()
         </div>
         <div class="main-content">
             <section class="content">
-                <h1 class="title">OWASP Web</h1>
+                <h1 class="title">WASP Web</h1>
                 <br>
-                <p class="bodytext">OWASP Web is a deliberately vulnerable web application with the intent to test users <br>
+                <p class="bodytext">WASP Web is a deliberately vulnerable web application with the intent to test users <br>
                     on their software security skills. Users can complete all 10 levels by exploiting a different OWASP Top 10 <br> 
-                     vulnerability at each level. Complete all 10 levels to get the OWASP Web certificate.
+                     vulnerability at each level. Complete all 10 levels to get the WASP Web certificate.
                      <br>
                      <br>
                     <i><b>Some of the OWASP Top 10 entires, are out of this projects scope, <br> 

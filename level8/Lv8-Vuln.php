@@ -19,10 +19,12 @@ if (!isset($_SESSION['user_id'])) {
         </div>
         <div class="main-content">
             <section class="content">
-                <h1 class="title">Level 8: Identification and Authentication Failures</h1>
+                <h1 class="title">Level 8: Identification and Authentication Failures x2</h1>
                 <br>
-                <p class="bodytext">Broken Access Control attacks gained the no5 spot on the OWASP Top 10 in 2017.<br> 
-                Exploit a misconfigured database login system to gain admin priviledge via a BAC attack.
+                <p class="bodytext">As mentioned in level 7 there are many possible ways an Identification<br> 
+                 and Authentication Failure can exist within a web application. <br>
+                Another example would be failing to implement input throttling. <br>
+                Access the admins account:
                 <br><br>
                 <p class="bodytext"><b>Account login</b></p>
 
@@ -37,7 +39,6 @@ if (!isset($_SESSION['user_id'])) {
                         <input type="password" name="password">
                     </div>
 
-                    <!-- Display error message if login fails -->
                     <?php if (isset($_SESSION['error'])): ?>
                         <div class="alert alert-danger">
                             <?php 

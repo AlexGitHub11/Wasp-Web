@@ -8,12 +8,8 @@ if (!isset($_SESSION['user_id'])) {
 
 include("../includes/conn.php");
 $username = $_POST['username'];
-// hash MD5
 $password = md5($_POST['password']);  
 
-// $password = hash('sha256', $_POST['password']); // hash with SHA-256 
-
-// Login query using prepared statment to avoid auth bypass
 $stmt = $conn->prepare(" SELECT * FROM users WHERE user = ? AND password = ?"); 
 $stmt->bind_param("ss", $username, $password);
 $stmt->execute();
@@ -27,13 +23,12 @@ if($queryresult && mysqli_num_rows($queryresult) > 0) {
     $timeupdatequery = "UPDATE users SET last_login = CURRENT_TIMESTAMP WHERE user_id = $user_id ";
     mysqli_query($conn, $timeupdatequery);
 
-    if($_SESSION['user_id'] == 1){ // destination dependent on if session id = Admin
+    if($_SESSION['user_id'] == 1){ 
         header("Location: Lv8-Mitigation");
         exit();
     }
     
 }   else{
-    // Set error message and redirect back to login page 
     $_SESSION['error'] = 'Invalid username or password'; 
    
     exit(); 
