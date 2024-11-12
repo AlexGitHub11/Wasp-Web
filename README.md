@@ -10,6 +10,6 @@ This project is inspired by the [OWASP Top 10](https://owasp.org/www-project-top
 
 UNDER DEVELOPMENT
 
-Demo video (Version 2.1): https://youtu.be/5T1qVXzBf0Q
+Demo video (Version 2.1): https://youtu.be/SPMQz-Q78_Q
 
 Demo video (Version 1.0): https://youtu.be/lPTRcQG6hrU
