@@ -21,7 +21,7 @@ if (!isset($_SESSION['user_id'])) {
             <section class="content">
                 <h1 class="title">Level 10: </h1>
                 <br>
-                <p class="bodytext">Under development....
+                <p class="bodytext">Under development...
                 <p>
                 <br>
             </section>  
