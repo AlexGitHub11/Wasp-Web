@@ -24,7 +24,7 @@ if (!isset($_SESSION['user_id'])) {
             <h1 class="title">Level 2: XSS</h1>
             <br>
             <p class="bodytext">XSS attacks gained the no7 spot on the OWASP top 10 in 2017.<br>
-             Exploit the inseucre JavaScript in this webpage to cause a XXS redirection attack.
+             Exploit the insecure JavaScript in this webpage to cause a XXS redirection attack.
             <p>
             <br>
             <h2 class="bodytext"> Comment your thoughts below:</h2>

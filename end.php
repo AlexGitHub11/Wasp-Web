@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
-    header("Location: Lv1-Vuln.php");
+if (!isset($_SESSION['user_id']) || $_SESSION['user_id'] !== 'admin' ) {   
+    header('Location: level1/Lv1-Login');
     exit;
-} 
+}
 ?>
 <!DOCTYPE html>
 <html>
