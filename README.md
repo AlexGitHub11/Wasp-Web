@@ -12,4 +12,3 @@ UNDER DEVELOPMENT
 
 Demo video (Version 2.1): https://youtu.be/SPMQz-Q78_Q
 
-Demo video (Version 1.0): https://youtu.be/lPTRcQG6hrU
