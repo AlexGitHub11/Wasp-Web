@@ -4,6 +4,11 @@
 //ini_set('session.use_strict_mode', 1); // Use strict mode for cookie
 session_start();
 
+if (!isset($_SESSION['pg14_complete'])) {
+    header("Location: Lv7-Vuln-Session");
+    exit; 
+} 
+
 // Define a static session ID for fake admin session
 $static_session_id = 'abcdefghijklmnopqrstuvwxyz';
 

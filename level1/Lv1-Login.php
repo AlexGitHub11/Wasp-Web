@@ -1,5 +1,11 @@
 <?php 
-session_start()
+session_start();
+
+if (!isset($_SESSION['pg1_complete'])) {
+    header("location: index");
+    exit;
+}
+$_SESSION['pg2_complete'] = true;
 ?>
 
 <!DOCTYPE html>

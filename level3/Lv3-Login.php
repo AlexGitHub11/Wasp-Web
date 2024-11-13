@@ -1,11 +1,12 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
-    header("Location: ../level1/Lv1-Vuln.php");
+if (!isset($_SESSION['pg5_complete'])) {
+    header("Location: ../level2/Lv2-Mitigation.php");
     exit; 
 } 
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>

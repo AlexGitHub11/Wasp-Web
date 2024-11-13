@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id']) || $_SESSION['user_id'] !== 'admin' ) {   
-    header('Location: level1/Lv1-Login');
+if (!isset($_SESSION['user_id']) && $_SESSION['user_id'] !== 1 && !isset($_SESSION['pg17_complete'])) {   
+    header('Location: ../level8/Lv8-Mitigation');
     exit;
 }
 ?>

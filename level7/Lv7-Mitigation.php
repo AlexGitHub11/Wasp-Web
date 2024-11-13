@@ -1,10 +1,11 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
-    header("Location: ../level1/Lv1-Vuln.php");
+if (!isset($_SESSION['pg14_complete']) || !isset($_SESSION['user_id'])) {
+    header("Location: Lv7-Vuln-Session");
     exit; 
 } 
+$_SESSION['pg15_complete'] = true;
 ?>
 
 <!DOCTYPE html>

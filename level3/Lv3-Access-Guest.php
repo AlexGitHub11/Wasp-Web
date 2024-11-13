@@ -1,14 +1,15 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
-    
-    header("Location: ../Lv3-Login.php");
-    exit;
+if (!isset($_SESSION['pg4_complete']) || !isset($_SESSION['user_id'])) {
+    header("Location: Lv3-Login");
+    exit; 
 } 
+$_SESSION['pg6_complete'] = true;
 
 $user = $_SESSION['user_id'] ?? '';
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
