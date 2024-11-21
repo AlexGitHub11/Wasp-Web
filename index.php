@@ -34,7 +34,7 @@ $_SESSION['pg1_complete'] = true;
                      and 2021 top 10 resulting in some overlap of vulnerabilities.
                 </p>
                 <br>
-                <a href="../level1/Lv1-Login.php"><button class="btn btn-secondary mb-4" style="font-size: 1.2rem">Continue to Level 1</button></a>
+                <a href="../levels/level1/Lv1-Login.php"><button class="btn btn-secondary mb-4" style="font-size: 1.2rem">Continue to Level 1</button></a>
             </section>
         </div>
             
