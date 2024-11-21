@@ -32,7 +32,7 @@ if (!isset($_SESSION['user_id']) && $_SESSION['user_id'] !== 1 && !isset($_SESSI
                 <img src="../images/top-10.png" alt="secure" class="owasp" >
                 <button class="btn btn-secondary mb-4" onclick="openImage()" style="font-size: 1.2rem">Get Certificate</button> 
                 <script> function openImage() { 
-                    window.open('../images/cert.png', '_blank'); }
+                    window.open('decrypt-cert.php?decrypt=true', '_blank'); }
                 </script>
             </section>  
         </div>
