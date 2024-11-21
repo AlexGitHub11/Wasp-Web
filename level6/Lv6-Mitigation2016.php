@@ -11,6 +11,7 @@ $_SESSION['pg13_complete'] = true;
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 6</title>
     <link rel="stylesheet" href=../Style.css> 
 </head>
 <body text="white">
@@ -22,14 +23,15 @@ $_SESSION['pg13_complete'] = true;
         <div class="main-content">
             <section class="content">
             <h1 class="title">Insufficient Logging & Monitoring Mitigation</h1>
+            <hr style="border-top: 2px solid rgb(68, 72, 77);">
             <br>
-            <p class="bodytext"><b>Congratulation! You successfully analysed the log files!</b><br>
-            This task was to demonstrate the importance of logging and monitoring system and network activity. <br>
-            Without this data there would be no way to identify and mitigate security breaches. <br>
-            Please continue to level 7:
+            <p class="bodytext">
+            <b>Congratulations! You successfully analysed the log files.</b><br>
+            This task was to demonstrate the importance of logging and monitoring system and network  <br>
+            activity. Without this data there would be no way to identify and mitigate security breaches. <br>
             </p>
             <br>
-            <a href="../level7/Lv7-Vuln.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 7</button></a>
+            <a href="../level7/Lv7-Vuln.php"><button class="btn btn-secondary mb-4" style="font-size: 1.2rem">Continue to Level 7</button></a>
         <div>
     </div>
     <?php include "../includes/footer.php"; ?>

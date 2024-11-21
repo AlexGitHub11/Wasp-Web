@@ -11,6 +11,7 @@ $_SESSION['pg8_complete'] = true;
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 4</title> 
     <link rel="stylesheet" href=../Style.css> 
 </head>
 <body text="white">
@@ -22,26 +23,18 @@ $_SESSION['pg8_complete'] = true;
         <div class="main-content">
             <section class="content">
             <h1 class="title">Level 4: Cryptographic Failure</h1>
+            <hr style="border-top: 2px solid rgb(68, 72, 77);">
             <br>
-            <p class="bodytext"><b>Admin view</b>
+            <p class="bodytext"><b>Administrator View</b>
             <p>
-            <p class="bodytext">Cryptographic Failure gained the no2 spot in the 2021 OWASP Top 10. <br> 
-                This vulnerability can present itself in a range of ways, such as storing <br> 
-                passwords in plaintext or weak, unsalted password hashes.<br>
-                Exploit this vulnerability to fill in the blank:<br>
-                <i>http://waspweb/level4/Lv4-<b>[blank]</b>.php</i>
+            <p class="bodytext">
+            Cryptographic Failure gained the no.2 spot in the 2021 OWASP Top 10. This vulnerability can present itself <br> 
+            in a range of ways, such as storing passwords in plaintext or weak, unsalted password hashes.<br> 
+            </p>
+            <br>
+            <p class="alert alert-info">
+            Exploit this vulnerability to fill in the blank: <b>http://waspweb/level4/Lv4-________.php</b>
             <p>
-
-            <!-- Display error message if login fails -->
-            <?php if (isset($_SESSION['message'])): ?>
-                        <div class="alert alert-info">
-                            <?php 
-                            echo $_SESSION['message'];
-                            unset($_SESSION['message']);
-                            ?>
-                        </div>
-            <?php endif; ?>
-
             <section class="content">
 
             <!-- Defining table and then showing db results of users table row by row -->

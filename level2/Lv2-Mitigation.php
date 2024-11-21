@@ -11,6 +11,7 @@ $_SESSION['pg5_complete'] = true;
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 2</title>
     <link rel="stylesheet" href=../Style.css> 
 </head>
 <body text="white">
@@ -21,16 +22,17 @@ $_SESSION['pg5_complete'] = true;
         </div>
         <div class="main-content">
             <section class="content">
-            <h1 class="title">XSS Mitigation</h1>
+            <h1 class="title">Cross Site Scripting (XXS) Mitigation</h1>
+            <hr style="border-top: 2px solid rgb(68, 72, 77);">
             <br>
-            <p class="bodytext"><b>Congratulation! You used an reflected XXS attack to pass level 2.</b><br>
-            The below left image is of the code you have just exploited to inflict an XXS attack on the webpage.<br> 
-            On the right is the secure version of this code to prevent XSS attacks. As can be seen, the 'innertext' method has been<br> 
-            implimented within the JS to prevent input execution of tags such as &lt;script&gt; and sanitise everything as plain text. <br> 
-            Please continue to level 3: 
+            <p class="bodytext">
+            <b>Congratulations! You exploited insecure JavaScript via an reflected XXS attack.</b><br>
+            The below left image is of the code you have just exploited to cause an XXS attack on the webpage. On the right, is the <br> 
+            secure version of this code to prevent XSS attacks. As can be seen, the 'innertext' method has been implemented  <br> 
+            within the JS to prevent input execution of tags such as &lt;script&gt; and sanitise all user input as plain text. <br> 
             <p>
             <br>
-            <a href="../level3/Lv3-Login.php"><button class="btn btn-secondary mb-4" style="width: 300px;">Level 3</button></a>
+            <a href="../level3/Lv3-Login.php"><button class="btn btn-secondary mb-4" style="font-size: 1.2rem">Continue to Level 3</button></a>
 
             <img src="../images/xss-vuln-img.png" alt="vuln" class="imagepos">
             <img src="../images/xss-secure-img.png" alt="secure" class="image2pos">

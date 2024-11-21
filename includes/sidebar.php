@@ -15,7 +15,7 @@
         'Lv7-Vuln.php' => 'Level 7', 
         'Lv8-Vuln.php' => 'Level 8', 
         'Lv9-Vuln.php' => 'Level 9', 
-        'Lv10-Vuln.php' => 'Level 10',
+        'end.php' => 'Level 10',
     ];
     
     // disply side bar with current page highlighted 

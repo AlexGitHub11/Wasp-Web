@@ -10,6 +10,7 @@ if (!isset($_SESSION['pg5_complete'])) {
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 3</title>  
     <link rel="stylesheet" href="../Style.css">
 </head>
 <body text="white">
@@ -21,11 +22,12 @@ if (!isset($_SESSION['pg5_complete'])) {
         <div class="main-content">
             <section class="content">
                 <h1 class="title">Level 3: Broken Access Control (BAC)</h1>
+                <hr style="border-top: 2px solid rgb(68, 72, 77);">
                 <br>
-                <p class="bodytext">Broken Access Control attacks gained the no5 spot on the OWASP Top 10 in 2017.<br> 
-                Exploit a misconfigured database login system to gain admin priviledge via a BAC attack.
+                <p class="bodytext">Broken Access Control attacks gained the no.5 spot on the OWASP Top 10 in 2017. Exploit<br> 
+                 a misconfigured database login system to gain admin privilege via a BAC attack.
                 <br><br>
-                <p class="bodytext"><b>OWASP Web Database Portal</b></p>
+                <p class="bodytext"><b>WASP Web Database Portal</b></p>
 
                 <!-- Login form -->
                 <form method="POST" action="lv3-Conn" >

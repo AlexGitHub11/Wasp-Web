@@ -11,6 +11,7 @@ $_SESSION['pg2_complete'] = true;
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 1</title>
     <link rel="stylesheet" href="../Style.css">
 </head>
 <body text="white">
@@ -22,17 +23,18 @@ $_SESSION['pg2_complete'] = true;
         <div class="main-content">
             <section class="content">
                 <h1 class="title">Level 1: SQL Injection</h1>
+                <hr style="border-top: 2px solid rgb(68, 72, 77);">
                 <br>
-                <p class="bodytext">Injection attacks are one of the most common web hacking techniques.<br> 
-                In fact, it was the no1 OWASP vulnerability in the 2017 Top 10 and is the no3 vulnerability<br>
-                in the 2021 Top 10. Bypass this login portal by exploiting an insecure SQL query.
+                <p class="bodytext">Injection attacks are one of the most common web hacking techniques. In fact, it was the no.1<br> 
+                  OWASP vulnerability in the 2017 Top 10 and is the no.3 vulnerability in the 2021<br>
+                 Top 10. Bypass this login portal by exploiting an insecure SQL query.
                 <p>
                 <br>
                 <!-- If only Authentication bypass was as simple as 1 = 1 -->
 
 
                 <!-- Login form -->
-                <form method="POST" action="lv1-Vuln" >
+                <form method="POST" action="lv1-Vuln">
                     <div class="form-group mb-4">
                         <label class="bodytext" for="username">Username:</label>
                         <input  type="text" name="username">

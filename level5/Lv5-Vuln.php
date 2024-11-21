@@ -11,6 +11,7 @@ $_SESSION['pg10_complete'] = true;
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 5</title>
     <link rel="stylesheet" href="../Style.css">
 </head>
 <body text="white">
@@ -22,11 +23,12 @@ $_SESSION['pg10_complete'] = true;
         <div class="main-content">
             <section class="content">
                 <h1 class="title">Level 5: Insecure Design</h1>
+                <hr style="border-top: 2px solid rgb(68, 72, 77);">
                 <br>
-                <p class="bodytext">Insecure design gained the no4 spot in the 2021 OWASP Top 10, <br>
-                This is a new addition to the Top 10 and relates to any risk present within the design. <br>
-                Identify the insecure design to complete this level. 
-                <p>
+                <p class="bodytext">
+                Insecure design gained the no.4 spot in the 2021 OWASP Top 10, This is a new addition to the Top 10, <br>
+                and relates to any risk present within the design. Identify the insecure design to complete this level. <br>
+                </p>
                 <br>
                 <p class="bodytext">Enter the combination </p>
 
@@ -38,7 +40,7 @@ $_SESSION['pg10_complete'] = true;
                     <input type="text" class="code-input" maxlength="1" id="val4"> 
                 </div>
                 <br>
-                <button class="btn btn-secondary mb-4" onclick="checkCombo()">Submit</button> <p id="submit">
+                <button class="btn btn-secondary mb-4" onclick="checkCombo()" style="font-size: 1.2rem">Submit</button> <p id="submit">
 
                 <!-- Validate input -->
                 <script>

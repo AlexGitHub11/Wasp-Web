@@ -10,6 +10,7 @@ $_SESSION['pg16_complete'] = true;
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 8</title>
     <link rel="stylesheet" href="../Style.css">
 </head>
 <body text="white">
@@ -21,12 +22,13 @@ $_SESSION['pg16_complete'] = true;
         <div class="main-content">
             <section class="content">
                 <h1 class="title">Level 8: Identification and Authentication Failures x2</h1>
+                <hr style="border-top: 2px solid rgb(68, 72, 77);">
                 <br>
-                <p class="bodytext">As mentioned in level 7 there are many possible ways an Identification<br> 
-                 and Authentication Failure can exist within a web application. <br>
-                Another example would be failing to implement input throttling. <br>
-                Access the admins account:
-                <br><br>
+                <p class="bodytext">
+                As mentioned in level 7, there are many possible ways an Identification and Authentication Failure can exist within.<br> 
+                a web application Another example would be failing to implement input throttling. Access the admin's account: <br>
+                <br>
+                <br>
                 <p class="bodytext"><b>Account login</b></p>
 
                 <!-- Login form -->

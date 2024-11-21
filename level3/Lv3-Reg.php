@@ -10,6 +10,7 @@ if (!isset($_SESSION['pg5_complete'])) {
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 3</title> 
     <link rel="stylesheet" href="../Style.css">
 </head>
 <body text="white">
@@ -21,6 +22,7 @@ if (!isset($_SESSION['pg5_complete'])) {
         <div class="main-content">
             <section class="content">
                 <p class="bodytext"><b>Register Here</b></p>
+                
 
                 <!-- Register form -->
                 <form method="POST" action="Lv3-RegConn.php" >

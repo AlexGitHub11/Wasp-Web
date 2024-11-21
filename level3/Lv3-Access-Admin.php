@@ -15,6 +15,7 @@ $user = $_SESSION['user_id'] ?? '';
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Level 3</title> 
     <link rel="stylesheet" href=../Style.css> 
 </head>
 <body text="white">
@@ -26,8 +27,9 @@ $user = $_SESSION['user_id'] ?? '';
         <div class="main-content">
             <section class="content">
             <h1 class="title">Welcome user <?php echo htmlspecialchars($user); ?></h1>
+            <hr style="border-top: 2px solid rgb(68, 72, 77);">
             <br>
-            <p class="bodytext"><b>Admin view</b>
+            <p class="bodytext"><b>Administrator View</b>
             <p>
 
             <!-- Display error message if login fails -->

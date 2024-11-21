@@ -12,6 +12,7 @@ $_SESSION['pg4_complete'] = true;
 
 <html>
 <head>
+    <title>Level 2</title>
     <link rel="stylesheet" href=../Style.css> 
 </head>
 <body text="white">
@@ -22,10 +23,11 @@ $_SESSION['pg4_complete'] = true;
         </div>
         <div class="main-content">
             <section class="content">
-            <h1 class="title">Level 2: XSS</h1>
+            <h1 class="title">Level 2: Cross Site Scripting (XXS)</h1>
+            <hr style="border-top: 2px solid rgb(68, 72, 77);">
             <br>
-            <p class="bodytext">XSS attacks gained the no7 spot on the OWASP top 10 in 2017.<br>
-             Exploit the insecure JavaScript in this webpage to cause a XXS redirection attack.
+            <p class="bodytext">XSS attacks gained the no.7 spot on the OWASP top 10 in 2017. Exploit<br>
+              the insecure JavaScript in this webpage to cause a XXS redirection attack.
             <p>
             <br>
             <h2 class="bodytext"> Comment your thoughts below:</h2>
