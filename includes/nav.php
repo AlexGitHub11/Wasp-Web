@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="../index.php" style="font-size: 1.2rem;">Home</a>
+                    <a class="nav-link" href="../../index.php" style="font-size: 1.2rem;">Home</a>
                 </li>
             </ul>
         </div>

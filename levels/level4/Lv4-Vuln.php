@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['pg7_complete']) || !isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['pg7_complete']) && !isset($_SESSION['user_id'])) {
     header("Location: ../level3/Lv3-Mitigation");
     exit; 
 } 

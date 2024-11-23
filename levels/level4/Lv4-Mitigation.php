@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['pg8_complete']) || !isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['pg8_complete']) && !isset($_SESSION['user_id'])) {
     header("Location: Lv4-Vuln");
     exit; 
 } 
