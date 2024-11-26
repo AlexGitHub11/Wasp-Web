@@ -41,7 +41,7 @@ Demo video (Version 2.1): [Watch here](https://youtu.be/KhGYv_ks8UI)
 
     Open your web browser and navigate to http://localhost/waspweb
 
-     - If using a virtualhost navigate to replace 'localhost' with name.
+     - If using a virtualhost, replace 'localhost' with the VH name.
 
-    Follow the instructions on each page. If you find yourself stuck on a level, please refer to the demo video for a walkthrough. I created this web application as a learning tool to deepen my understanding of software       security. Consequently, the levels are designed to be approachable do not require an advanced understanding of web app exploitation and security. 
+    Follow the instructions on each page. If you are stuck on a level, please look at the demo video for a walkthrough. I created this web application as a learning tool to deepen my understanding of software security. Consequently, the levels are designed to be approachable and do not require an advanced knowledge of web app exploitation and security. 
 
