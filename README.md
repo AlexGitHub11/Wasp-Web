@@ -10,6 +10,9 @@ This project is inspired by the [OWASP Top 10](https://owasp.org/www-project-top
 
 __UNDER DEVELOPMENT__
 
+As this web app is still under development, there may be unintended ways to exploit it. However, 
+if you wish to complete the levels in their entirety, please make sure to exploit the intended vulnerabilities.
+
 Demo video (Version 2.1): [Watch here](https://youtu.be/KhGYv_ks8UI)
 
 ## Setup Instructions
